@@ -1,4 +1,4 @@
-name: Update UI
+name: Handle UI Update
 
 on:
   repository_dispatch:
@@ -15,5 +15,4 @@ jobs:
       commit_hash: ${{ github.event.client_payload.commit_hash }}
       app_name: ${{ github.event.client_payload.app_name }}
       repository: ${{ github.event.client_payload.repository }}
-    secrets:
-      PAT: ${{ secrets.PAT }}
+    secrets: inherit
