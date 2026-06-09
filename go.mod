@@ -124,7 +124,7 @@ require (
 	go.lumeweb.com/portal-middleware v0.3.7 // indirect
 	go.lumeweb.com/portal-router v0.6.16 // indirect
 	go.lumeweb.com/queryutil v0.3.16 // indirect
-	go.lumeweb.com/web/go/portal-plugin-onboarding v0.0.0-20260609162316-7c8637dc8e28
+	go.lumeweb.com/web/go/portal-plugin-onboarding v0.0.0-20260609165001-7bdb11c87f22
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/contrib/bridges/otelzap v0.18.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/runtime v0.68.0 // indirect
